@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="discovery.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#packages">Tour Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1 style="color:">Welcome to Our Discovary Adventures</h1>
+            <p>Your journey to the most amazing destinations starts here!</p>
+            <button onclick="location.href='#packages'">Explore Packages</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a travel agency with years of experience, offering top-notch travel packages worldwide. Whether you're looking for adventure, relaxation, or cultural experiences, we have it all!</p>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section id="packages">
+        <h2>Our Tour Packages</h2>
+        <div class="package">
+            <img src="parisphoto.jpg" alt="Package 1"width="300"height="300">
+            <h3>Paris Adventure</h3>
+            <p>5 days and 4 nights in Paris, including a guided tour of the Eiffel Tower, Louvre Museum, and more just at $800!</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <img src="italy.jpg" alt="Package 2">
+            <h3>Italian Escape</h3>
+            <p>Explore Rome, Venice, and Florence in an unforgettable 7-day trip.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <img src="Amazon-Rainforest-F.jpg" alt="Package 3">
+            <h3>Adventure in the Amazon</h3>
+            <p>Get close to nature with an exciting adventure in the heart of the Amazon rainforest.</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
